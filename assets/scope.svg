@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 510" width="1200" height="510" role="img" aria-label="Scope, from interface to platform. Frontend: React, Angular, TypeScript, JavaScript, Astro. Backend: Java, Spring Boot, Python, FastAPI, Express.js. Distributed core: event-driven, active-active, multi-region, durable state, self-healing queues, rate limiting, scheduling. Data and caching: PostgreSQL, MySQL, ClickHouse, Hazelcast, Ehcache. Platform and DevOps: Azure, Kubernetes, Docker, Ansible, Harbor, Jenkins, GitHub Actions. Craft: Git, Maven, JUnit 5, Grafana, Linux, Bash, uv.">
+  <title>Scope, from interface to platform</title>
+
+  <defs>
+    <linearGradient id="scarbon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0B0F14"/>
+      <stop offset="100%" stop-color="#0F151D"/>
+    </linearGradient>
+    <linearGradient id="railGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#4CC9F0"/>
+      <stop offset="100%" stop-color="#3DDC97"/>
+    </linearGradient>
+    <clipPath id="sframe"><rect width="1200" height="510" rx="14"/></clipPath>
+    <style>
+      .sans { font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .mono { font-family: "SF Mono", "Cascadia Mono", Consolas, "Liberation Mono", monospace; }
+      .lyr  { fill: #121A23; stroke: #8B98A6; stroke-opacity: 0.14; }
+      .core { fill: #14241F; stroke: #3DDC97; stroke-opacity: 0.45; }
+      .lbl  { font-size: 12px; letter-spacing: 2px; fill: #8B98A6; }
+      .lblc { font-size: 12px; letter-spacing: 2px; fill: #3DDC97; }
+      .kit  { font-size: 14.5px; fill: #C7D0DA; }
+      .pulse { animation: fade 2.6s ease-in-out infinite; }
+      @keyframes fade { 0%,100% { opacity:1 } 50% { opacity:.3 } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#sframe)">
+    <rect width="1200" height="510" fill="url(#scarbon)"/>
+
+    <rect x="24" y="30" width="4" height="26" rx="2" fill="#3DDC97"/>
+    <text class="sans" x="40" y="51" font-size="20" font-weight="700" fill="#FFFFFF">Scope</text>
+    <text class="mono" x="1176" y="50" text-anchor="end" font-size="11.5" letter-spacing="2" fill="#6B7684">INTERFACE → PLATFORM</text>
+    <rect x="24" y="68" width="1152" height="1" fill="#8B98A6" fill-opacity="0.14"/>
+
+    <!-- continuity rail -->
+    <rect x="34" y="96" width="3" height="382" rx="1.5" fill="url(#railGrad)" opacity="0.55"/>
+
+    <g transform="translate(0,88)">
+      <rect class="lyr" x="24" y="0" width="1152" height="58" rx="10"/>
+      <text class="mono lbl" x="60" y="34">FRONTEND</text>
+      <text class="sans kit" x="270" y="35">React · Angular · TypeScript · JavaScript · Astro</text>
+    </g>
+
+    <g transform="translate(0,156)">
+      <rect class="lyr" x="24" y="0" width="1152" height="58" rx="10"/>
+      <text class="mono lbl" x="60" y="34">BACKEND</text>
+      <text class="sans kit" x="270" y="35">Java · Spring Boot · Python · FastAPI · Express.js</text>
+    </g>
+
+    <g transform="translate(0,224)">
+      <rect class="core" x="24" y="0" width="1152" height="58" rx="10"/>
+      <circle class="pulse" cx="46" cy="29" r="4" fill="#3DDC97"/>
+      <text class="mono lblc" x="60" y="34">DISTRIBUTED CORE</text>
+      <text class="sans kit" x="270" y="35" fill="#E6EDF3">Event-driven · Active-active · Multi-region · Durable state · Self-healing queues · Rate limiting</text>
+    </g>
+
+    <g transform="translate(0,292)">
+      <rect class="lyr" x="24" y="0" width="1152" height="58" rx="10"/>
+      <text class="mono lbl" x="60" y="34">DATA &amp; CACHING</text>
+      <text class="sans kit" x="270" y="35">PostgreSQL · MySQL · ClickHouse · Hazelcast · Ehcache</text>
+    </g>
+
+    <g transform="translate(0,360)">
+      <rect class="lyr" x="24" y="0" width="1152" height="58" rx="10"/>
+      <text class="mono lbl" x="60" y="34">PLATFORM &amp; DEVOPS</text>
+      <text class="sans kit" x="270" y="35">Azure · Kubernetes · Docker · Ansible · Harbor · Jenkins · GitHub Actions</text>
+    </g>
+
+    <g transform="translate(0,428)">
+      <rect class="lyr" x="24" y="0" width="1152" height="58" rx="10"/>
+      <text class="mono lbl" x="60" y="34">CRAFT</text>
+      <text class="sans kit" x="270" y="35">Git · Maven · JUnit 5 · Grafana · Linux · Bash · uv</text>
+    </g>
+  </g>
+</svg>
