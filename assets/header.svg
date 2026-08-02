@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Nipun Rautela — Software Engineer at Visa, Bangalore. I build software that scales, self-heals, and stays online through change.">
+  <title>Nipun Rautela — Software Engineer</title>
+
+  <defs>
+    <linearGradient id="carbon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0B0F14"/>
+      <stop offset="55%"  stop-color="#101720"/>
+      <stop offset="100%" stop-color="#0B0F14"/>
+    </linearGradient>
+
+    <linearGradient id="accentBar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#3DDC97"/>
+      <stop offset="100%" stop-color="#4CC9F0"/>
+    </linearGradient>
+
+    <linearGradient id="streak" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#3DDC97" stop-opacity="0"/>
+      <stop offset="60%"  stop-color="#3DDC97" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4CC9F0" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#8B98A6" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="frame">
+      <rect x="0" y="0" width="1200" height="300" rx="14"/>
+    </clipPath>
+
+    <style>
+      .sans { font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .mono { font-family: "SF Mono", "Cascadia Mono", Consolas, "Liberation Mono", monospace; }
+
+      .streakA { animation: rush 3.2s linear infinite; }
+      .streakB { animation: rush 4.6s linear infinite; }
+      .streakC { animation: rush 2.6s linear infinite; }
+      @keyframes rush {
+        0%   { transform: translateX(-320px); opacity: 0; }
+        18%  { opacity: 1; }
+        82%  { opacity: 1; }
+        100% { transform: translateX(340px); opacity: 0; }
+      }
+
+      .sweepBar { animation: slide 3.6s ease-in-out infinite; }
+      @keyframes slide {
+        0%, 100% { transform: translateY(-60px); }
+        50%      { transform: translateY(200px); }
+      }
+
+      .blip { animation: blink 2s ease-in-out infinite; }
+      @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.25; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="url(#carbon)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+
+    <!-- motion streaks -->
+    <g transform="skewX(-24)" opacity="0.9">
+      <rect class="streakA" x="820" y="44"  width="230" height="3" rx="1.5" fill="url(#streak)"/>
+      <rect class="streakB" x="760" y="96"  width="300" height="2" rx="1"   fill="url(#streak)"/>
+      <rect class="streakC" x="880" y="150" width="180" height="3" rx="1.5" fill="url(#streak)"/>
+      <rect class="streakB" x="800" y="206" width="260" height="2" rx="1"   fill="url(#streak)"/>
+      <rect class="streakA" x="860" y="252" width="200" height="2" rx="1"   fill="url(#streak)"/>
+    </g>
+
+    <!-- ghosted monogram -->
+    <text class="sans" x="1135" y="228" text-anchor="end" font-size="210" font-weight="800"
+          fill="none" stroke="#8B98A6" stroke-opacity="0.10" stroke-width="2" letter-spacing="-6">NR</text>
+
+    <!-- left accent rail with travelling highlight -->
+    <rect x="40" y="46" width="6" height="208" rx="3" fill="url(#accentBar)"/>
+    <g clip-path="url(#frame)">
+      <rect class="sweepBar" x="40" y="46" width="6" height="70" rx="3" fill="url(#sweep)" opacity="0.75"/>
+    </g>
+
+    <!-- eyebrow -->
+    <g class="mono" font-size="13" letter-spacing="3.4">
+      <circle class="blip" cx="76" cy="66" r="3.5" fill="#3DDC97"/>
+      <text x="90" y="71" fill="#3DDC97">SOFTWARE ENGINEER</text>
+      <text x="304" y="71" fill="#8B98A6">// VISA</text>
+    </g>
+
+    <!-- name -->
+    <text class="sans" x="74" y="146" font-size="64" font-weight="800" fill="#FFFFFF" letter-spacing="1.5">NIPUN RAUTELA</text>
+
+    <!-- tagline -->
+    <text class="sans" x="76" y="186" font-size="19" fill="#9BA6B2">I build software that scales, self-heals, and stays online through change.</text>
+
+    <!-- chips -->
+    <g class="mono" font-size="12.5" letter-spacing="1.2">
+      <rect x="76"  y="212" width="200" height="30" rx="15" fill="#3DDC97" fill-opacity="0.10" stroke="#3DDC97" stroke-opacity="0.35"/>
+      <text x="176" y="231.5" text-anchor="middle" fill="#3DDC97">DISTRIBUTED SYSTEMS</text>
+
+      <rect x="288" y="212" width="152" height="30" rx="15" fill="#4CC9F0" fill-opacity="0.10" stroke="#4CC9F0" stroke-opacity="0.35"/>
+      <text x="364" y="231.5" text-anchor="middle" fill="#4CC9F0">JAVA · SPRING</text>
+
+      <rect x="452" y="212" width="184" height="30" rx="15" fill="#8B98A6" fill-opacity="0.10" stroke="#8B98A6" stroke-opacity="0.30"/>
+      <text x="544" y="231.5" text-anchor="middle" fill="#9BA6B2">BANGALORE, INDIA</text>
+    </g>
+
+    <!-- baseline rule -->
+    <rect x="0" y="296" width="1200" height="4" fill="#3DDC97" fill-opacity="0.35"/>
+    <rect x="0" y="296" width="320" height="4" fill="#3DDC97"/>
+  </g>
+</svg>
