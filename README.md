@@ -53,9 +53,10 @@ Comfortable owning a feature from schema to deploy, and comfortable going deep o
 ## `//` Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=nipunrautela&show_icons=true&hide_border=true&bg_color=0B0F14&title_color=3DDC97&text_color=9BA6B2&icon_color=4CC9F0&include_all_commits=true" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nipunrautela&layout=compact&hide_border=true&bg_color=0B0F14&title_color=3DDC97&text_color=9BA6B2&langs_count=8" alt="Most used languages">
+  <img src="assets/stats.svg" alt="GitHub stats: public commits, stars earned, pull requests, public repos, followers, and top languages by share." width="100%">
 </p>
+
+<sub>Rendered from the GitHub API by <a href="https://github.com/nipunrautela/nipunrautela/actions/workflows/stats.yml">a scheduled job</a> and committed to this repo, so the panel is served by GitHub itself rather than a third-party image host.</sub>
 
 ## `//` Elsewhere
 

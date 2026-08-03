@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="GitHub stats for nipunrautela: 330 public commits, 12 stars earned, 13 pull requests, 29 public repos, 14 followers, 2020 on github since. Top languages: Python 34.7 percent, Astro 14.7 percent, ShaderLab 13.3 percent, JavaScript 8.8 percent, PHP 7.5 percent, TypeScript 7.4 percent, Dart 6.9 percent, C++ 6.7 percent.">
+  <title>GitHub stats</title>
+
+  <defs>
+    <linearGradient id="statsCarbon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0B0F14"/>
+      <stop offset="100%" stop-color="#0F151D"/>
+    </linearGradient>
+    <clipPath id="statsFrame"><rect width="1200" height="300" rx="14"/></clipPath>
+    <clipPath id="barClip"><rect x="612" y="126" width="564" height="14" rx="7"/></clipPath>
+    <style>
+      .sans { font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .mono { font-family: "SF Mono", "Cascadia Mono", Consolas, "Liberation Mono", monospace; }
+      .tile { fill: #121A23; stroke: #8B98A6; stroke-opacity: 0.14; }
+      .lbl  { font-size: 11px; letter-spacing: 2px; fill: #8B98A6; }
+      .val  { font-size: 30px; font-weight: 800; }
+      .lang { font-size: 14.5px; fill: #C7D0DA; }
+      .pct  { font-size: 12.5px; fill: #8B98A6; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#statsFrame)">
+    <rect width="1200" height="300" fill="url(#statsCarbon)"/>
+
+    <rect x="24" y="30" width="4" height="26" rx="2" fill="#3DDC97"/>
+    <text class="sans" x="40" y="51" font-size="20" font-weight="700" fill="#FFFFFF">Stats</text>
+    <text class="mono" x="1176" y="50" text-anchor="end" font-size="11.5" letter-spacing="2" fill="#6B7684">SELF-HOSTED · 2026-08-03</text>
+    <rect x="24" y="68" width="1152" height="1" fill="#8B98A6" fill-opacity="0.14"/>
+
+      <g transform="translate(24,92)">
+        <rect class="tile" width="180" height="86" rx="10"/>
+        <text class="mono lbl" x="18" y="30">PUBLIC COMMITS</text>
+        <text class="sans val" x="18" y="66" fill="#3DDC97">330</text>
+      </g>
+      <g transform="translate(216,92)">
+        <rect class="tile" width="180" height="86" rx="10"/>
+        <text class="mono lbl" x="18" y="30">STARS EARNED</text>
+        <text class="sans val" x="18" y="66" fill="#4CC9F0">12</text>
+      </g>
+      <g transform="translate(408,92)">
+        <rect class="tile" width="180" height="86" rx="10"/>
+        <text class="mono lbl" x="18" y="30">PULL REQUESTS</text>
+        <text class="sans val" x="18" y="66" fill="#3DDC97">13</text>
+      </g>
+      <g transform="translate(24,190)">
+        <rect class="tile" width="180" height="86" rx="10"/>
+        <text class="mono lbl" x="18" y="30">PUBLIC REPOS</text>
+        <text class="sans val" x="18" y="66" fill="#4CC9F0">29</text>
+      </g>
+      <g transform="translate(216,190)">
+        <rect class="tile" width="180" height="86" rx="10"/>
+        <text class="mono lbl" x="18" y="30">FOLLOWERS</text>
+        <text class="sans val" x="18" y="66" fill="#3DDC97">14</text>
+      </g>
+      <g transform="translate(408,190)">
+        <rect class="tile" width="180" height="86" rx="10"/>
+        <text class="mono lbl" x="18" y="30">ON GITHUB SINCE</text>
+        <text class="sans val" x="18" y="66" fill="#4CC9F0">2020</text>
+      </g>
+
+    <text class="mono lbl" x="612" y="110">TOP LANGUAGES</text>
+    <g clip-path="url(#barClip)">
+      <rect x="612.0" y="126" width="195.6" height="14" fill="#3DDC97"/>
+      <rect x="807.6" y="126" width="83.1" height="14" fill="#4CC9F0"/>
+      <rect x="890.7" y="126" width="75.0" height="14" fill="#A78BFA"/>
+      <rect x="965.7" y="126" width="49.7" height="14" fill="#FFB703"/>
+      <rect x="1015.4" y="126" width="42.1" height="14" fill="#FF7A6B"/>
+      <rect x="1057.5" y="126" width="41.5" height="14" fill="#5EEAD4"/>
+      <rect x="1099.1" y="126" width="39.1" height="14" fill="#F472B6"/>
+      <rect x="1138.1" y="126" width="37.9" height="14" fill="#8B98A6"/>
+    </g>
+
+      <g transform="translate(612,182)">
+        <circle cx="5" cy="-4" r="5" fill="#3DDC97"/>
+        <text class="sans lang" x="20" y="0">Python</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">34.7%</text>
+      </g>
+      <g transform="translate(900,182)">
+        <circle cx="5" cy="-4" r="5" fill="#4CC9F0"/>
+        <text class="sans lang" x="20" y="0">Astro</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">14.7%</text>
+      </g>
+      <g transform="translate(612,212)">
+        <circle cx="5" cy="-4" r="5" fill="#A78BFA"/>
+        <text class="sans lang" x="20" y="0">ShaderLab</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">13.3%</text>
+      </g>
+      <g transform="translate(900,212)">
+        <circle cx="5" cy="-4" r="5" fill="#FFB703"/>
+        <text class="sans lang" x="20" y="0">JavaScript</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">8.8%</text>
+      </g>
+      <g transform="translate(612,242)">
+        <circle cx="5" cy="-4" r="5" fill="#FF7A6B"/>
+        <text class="sans lang" x="20" y="0">PHP</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">7.5%</text>
+      </g>
+      <g transform="translate(900,242)">
+        <circle cx="5" cy="-4" r="5" fill="#5EEAD4"/>
+        <text class="sans lang" x="20" y="0">TypeScript</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">7.4%</text>
+      </g>
+      <g transform="translate(612,272)">
+        <circle cx="5" cy="-4" r="5" fill="#F472B6"/>
+        <text class="sans lang" x="20" y="0">Dart</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">6.9%</text>
+      </g>
+      <g transform="translate(900,272)">
+        <circle cx="5" cy="-4" r="5" fill="#8B98A6"/>
+        <text class="sans lang" x="20" y="0">C++</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">6.7%</text>
+      </g>
+  </g>
+</svg>
