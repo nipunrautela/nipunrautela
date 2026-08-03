@@ -56,8 +56,6 @@ Comfortable owning a feature from schema to deploy, and comfortable going deep o
   <img src="assets/stats.svg" alt="GitHub stats: public commits, stars earned, pull requests, public repos, followers, and top languages by share." width="100%">
 </p>
 
-<sub>Rendered from the GitHub API by <a href="https://github.com/nipunrautela/nipunrautela/actions/workflows/stats.yml">a scheduled job</a> and committed to this repo, so the panel is served by GitHub itself rather than a third-party image host.</sub>
-
 ## `//` Elsewhere
 
 Repositories worth a look: [solution-shed](https://github.com/nipunrautela/solution-shed), [KoDS-Bot](https://github.com/nipunrautela/KoDS-Bot), [graph-visualizer](https://github.com/nipunrautela/graph-visualizer), [dsa](https://github.com/nipunrautela/dsa), [nipunrautela.github.io](https://github.com/nipunrautela/nipunrautela.github.io).

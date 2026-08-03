@@ -196,7 +196,7 @@ function render(d) {
 
     <rect x="24" y="30" width="4" height="26" rx="2" fill="#3DDC97"/>
     <text class="sans" x="40" y="51" font-size="20" font-weight="700" fill="#FFFFFF">Stats</text>
-    <text class="mono" x="1176" y="50" text-anchor="end" font-size="11.5" letter-spacing="2" fill="#6B7684">SELF-HOSTED · ${updated}</text>
+    <text class="mono" x="1176" y="50" text-anchor="end" font-size="11.5" letter-spacing="2" fill="#6B7684">UPDATED ${updated}</text>
     <rect x="24" y="68" width="1152" height="1" fill="#8B98A6" fill-opacity="0.14"/>
 
 ${tileSvg}
