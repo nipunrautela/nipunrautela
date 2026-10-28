@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="GitHub stats for nipunrautela: 427 public commits, 12 stars earned, 91 pull requests, 29 public repos, 14 followers, 2020 on github since. Top languages: Kotlin 35.8 percent, Python 24.2 percent, Astro 10.1 percent, ShaderLab 9.1 percent, JavaScript 6.0 percent, PHP 5.1 percent, TypeScript 5.1 percent, Dart 4.7 percent.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="GitHub stats for nipunrautela: 429 public commits, 12 stars earned, 91 pull requests, 29 public repos, 14 followers, 2020 on github since. Top languages: Kotlin 39.3 percent, Python 22.9 percent, Astro 9.5 percent, ShaderLab 8.6 percent, JavaScript 5.7 percent, PHP 4.8 percent, TypeScript 4.8 percent, Dart 4.5 percent.">
   <title>GitHub stats</title>
 
   <defs>
@@ -24,13 +24,13 @@
 
     <rect x="24" y="30" width="4" height="26" rx="2" fill="#3DDC97"/>
     <text class="sans" x="40" y="51" font-size="20" font-weight="700" fill="#FFFFFF">Stats</text>
-    <text class="mono" x="1176" y="50" text-anchor="end" font-size="11.5" letter-spacing="2" fill="#6B7684">UPDATED 2026-10-27</text>
+    <text class="mono" x="1176" y="50" text-anchor="end" font-size="11.5" letter-spacing="2" fill="#6B7684">UPDATED 2026-10-28</text>
     <rect x="24" y="68" width="1152" height="1" fill="#8B98A6" fill-opacity="0.14"/>
 
       <g transform="translate(24,92)">
         <rect class="tile" width="180" height="86" rx="10"/>
         <text class="mono lbl" x="18" y="30">PUBLIC COMMITS</text>
-        <text class="sans val" x="18" y="66" fill="#3DDC97">427</text>
+        <text class="sans val" x="18" y="66" fill="#3DDC97">429</text>
       </g>
       <g transform="translate(216,92)">
         <rect class="tile" width="180" height="86" rx="10"/>
@@ -60,55 +60,55 @@
 
     <text class="mono lbl" x="612" y="110">TOP LANGUAGES</text>
     <g clip-path="url(#barClip)">
-      <rect x="612.0" y="126" width="201.8" height="14" fill="#3DDC97"/>
-      <rect x="813.8" y="126" width="136.4" height="14" fill="#4CC9F0"/>
-      <rect x="950.2" y="126" width="56.7" height="14" fill="#A78BFA"/>
-      <rect x="1006.9" y="126" width="51.1" height="14" fill="#FFB703"/>
-      <rect x="1058.0" y="126" width="33.9" height="14" fill="#FF7A6B"/>
-      <rect x="1091.9" y="126" width="28.7" height="14" fill="#5EEAD4"/>
-      <rect x="1120.7" y="126" width="28.7" height="14" fill="#F472B6"/>
-      <rect x="1149.3" y="126" width="26.7" height="14" fill="#8B98A6"/>
+      <rect x="612.0" y="126" width="221.7" height="14" fill="#3DDC97"/>
+      <rect x="833.7" y="126" width="128.9" height="14" fill="#4CC9F0"/>
+      <rect x="962.7" y="126" width="53.6" height="14" fill="#A78BFA"/>
+      <rect x="1016.2" y="126" width="48.3" height="14" fill="#FFB703"/>
+      <rect x="1064.5" y="126" width="32.0" height="14" fill="#FF7A6B"/>
+      <rect x="1096.6" y="126" width="27.1" height="14" fill="#5EEAD4"/>
+      <rect x="1123.7" y="126" width="27.1" height="14" fill="#F472B6"/>
+      <rect x="1150.8" y="126" width="25.2" height="14" fill="#8B98A6"/>
     </g>
 
       <g transform="translate(612,182)">
         <circle cx="5" cy="-4" r="5" fill="#3DDC97"/>
         <text class="sans lang" x="20" y="0">Kotlin</text>
-        <text class="mono pct" x="264" y="0" text-anchor="end">35.8%</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">39.3%</text>
       </g>
       <g transform="translate(900,182)">
         <circle cx="5" cy="-4" r="5" fill="#4CC9F0"/>
         <text class="sans lang" x="20" y="0">Python</text>
-        <text class="mono pct" x="264" y="0" text-anchor="end">24.2%</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">22.9%</text>
       </g>
       <g transform="translate(612,212)">
         <circle cx="5" cy="-4" r="5" fill="#A78BFA"/>
         <text class="sans lang" x="20" y="0">Astro</text>
-        <text class="mono pct" x="264" y="0" text-anchor="end">10.1%</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">9.5%</text>
       </g>
       <g transform="translate(900,212)">
         <circle cx="5" cy="-4" r="5" fill="#FFB703"/>
         <text class="sans lang" x="20" y="0">ShaderLab</text>
-        <text class="mono pct" x="264" y="0" text-anchor="end">9.1%</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">8.6%</text>
       </g>
       <g transform="translate(612,242)">
         <circle cx="5" cy="-4" r="5" fill="#FF7A6B"/>
         <text class="sans lang" x="20" y="0">JavaScript</text>
-        <text class="mono pct" x="264" y="0" text-anchor="end">6.0%</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">5.7%</text>
       </g>
       <g transform="translate(900,242)">
         <circle cx="5" cy="-4" r="5" fill="#5EEAD4"/>
         <text class="sans lang" x="20" y="0">PHP</text>
-        <text class="mono pct" x="264" y="0" text-anchor="end">5.1%</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">4.8%</text>
       </g>
       <g transform="translate(612,272)">
         <circle cx="5" cy="-4" r="5" fill="#F472B6"/>
         <text class="sans lang" x="20" y="0">TypeScript</text>
-        <text class="mono pct" x="264" y="0" text-anchor="end">5.1%</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">4.8%</text>
       </g>
       <g transform="translate(900,272)">
         <circle cx="5" cy="-4" r="5" fill="#8B98A6"/>
         <text class="sans lang" x="20" y="0">Dart</text>
-        <text class="mono pct" x="264" y="0" text-anchor="end">4.7%</text>
+        <text class="mono pct" x="264" y="0" text-anchor="end">4.5%</text>
       </g>
   </g>
 </svg>
